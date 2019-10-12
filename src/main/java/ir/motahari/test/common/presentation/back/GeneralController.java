@@ -16,6 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class GeneralController {
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot! i am Motaharinia.";
+        return "Greetings from Spring Boot! i am Motaharinia. ";
     }
 }
